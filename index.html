@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GameHub - Your Gaming Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Header / Navbar -->
+  <header class="bg-gray-800 shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-indigo-500 cursor-pointer">GameHub</h1>
+      <nav>
+        <ul class="flex space-x-6 text-gray-300">
+          <li><a href="#" class="hover:text-indigo-500">Home</a></li>
+          <li><a href="#" class="hover:text-indigo-500">Games</a></li>
+          <li><a href="#" class="hover:text-indigo-500">Reviews</a></li>
+          <li><a href="#" class="hover:text-indigo-500">News</a></li>
+          <li><a href="#" class="hover:text-indigo-500">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Featured Game Section -->
+  <section class="bg-indigo-700 bg-opacity-90 mt-6 rounded-lg max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-8">
+    <img
+      src="https://images.unsplash.com/photo-1600185360197-d1b1f7d6a032?auto=format&fit=crop&w=600&q=80"
+      alt="Featured Game"
+      class="w-full md:w-1/2 rounded-lg shadow-lg object-cover"
+    />
+    <div class="md:w-1/2">
+      <h2 class="text-4xl font-extrabold mb-4">Epic Quest: The Lost Realm</h2>
+      <p class="mb-6 text-lg leading-relaxed">
+        Dive into an immersive fantasy world full of magic, mystery, and monsters. Explore vast landscapes, complete challenging quests, and unlock epic loot.
+      </p>
+      <a href="#" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-3 rounded shadow">
+        Play Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Games Gallery -->
+  <section class="max-w-7xl mx-auto px-6 py-12">
+    <h3 class="text-3xl font-bold mb-8 text-center text-indigo-400">Popular Games</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+      <!-- Game Card -->
+      <div class="bg-gray-800 rounded-lg shadow hover:shadow-indigo-500 transition-shadow duration-300 overflow-hidden cursor-pointer">
+        <img
+          src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=600&q=80"
+          alt="Game 1"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h4 class="font-semibold text-xl mb-2">Cyber Racer 2099</h4>
+          <p class="text-gray-400 text-sm mb-4">Futuristic racing game with high-speed action and neon visuals.</p>
+          <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded font-semibold">
+            Play Demo
+          </button>
+        </div>
+      </div>
+
+      <!-- Game Card -->
+      <div class="bg-gray-800 rounded-lg shadow hover:shadow-indigo-500 transition-shadow duration-300 overflow-hidden cursor-pointer">
+        <img
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+          alt="Game 2"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h4 class="font-semibold text-xl mb-2">Zombie Survival</h4>
+          <p class="text-gray-400 text-sm mb-4">Survive hordes of zombies in this thrilling action-packed shooter.</p>
+          <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded font-semibold">
+            Play Demo
+          </button>
+        </div>
+      </div>
+
+      <!-- Game Card -->
+      <div class="bg-gray-800 rounded-lg shadow hover:shadow-indigo-500 transition-shadow duration-300 overflow-hidden cursor-pointer">
+        <img
+          src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80"
+          alt="Game 3"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h4 class="font-semibold text-xl mb-2">Mystic Puzzles</h4>
+          <p class="text-gray-400 text-sm mb-4">Solve magical puzzles to unlock secrets of the ancient realm.</p>
+          <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded font-semibold">
+            Play Demo
+          </button>
+        </div>
+      </div>
+
+      <!-- Game Card -->
+      <div class="bg-gray-800 rounded-lg shadow hover:shadow-indigo-500 transition-shadow duration-300 overflow-hidden cursor-pointer">
+        <img
+          src="https://images.unsplash.com/photo-1535905748047-14a9a43a27ee?auto=format&fit=crop&w=600&q=80"
+          alt="Game 4"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h4 class="font-semibold text-xl mb-2">Space Command</h4>
+          <p class="text-gray-400 text-sm mb-4">Lead your fleet in intergalactic battles and conquer the stars.</p>
+          <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded font-semibold">
+            Play Demo
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 mt-12 py-6 text-center text-gray-400">
+    &copy; 2025 GameHub. All rights reserved.
+  </footer>
+
+</body>
+</html>
